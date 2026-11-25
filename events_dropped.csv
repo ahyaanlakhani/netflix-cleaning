@@ -1,0 +1,425 @@
+event_id,member_id,title_id,event_datetime,watch_seconds,completed,device_type,country,profile_type,reason
+EV-000002,M-10371,TT-0412,2026-11-15,1137,False,mobile,US,standard,title_id not in catalog
+EV-000003,M-10367,TT-0347,2026-10-22,1989,True,tv,DE,standard,title_id not in catalog
+EV-000012,M-10419,TT-0347,2026-11-11,1920,True,mobile,DE,kids,title_id not in catalog
+EV-000030,M-10475,TT-0238,2026-08-19,,False,tv,IN,standard,watch time missing
+EV-000045,M-10380,TT-0177,2026-08-22,79871,False,mobile,IN,standard,implausibly long watch time
+EV-000053,M-10530,TT-0258,2026-10-22,1983,True,tv,CA,standard,viewed before title release date
+EV-000054,M-10026,TT-0003,2026-11-13,53954,False,tv,US,standard,implausibly long watch time
+EV-000066,M-10493,TT-0347,2026-09-13,1144,False,mobile,US,standard,title_id not in catalog
+EV-000067,M-10321,TT-0170,2026-09-01,41,True,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-000073,M-10508,TT-0262,2026-09-05,2264,True,mobile,US,standard,"catalog runtime missing, duration unverifiable"
+EV-000082,M-10236,TT-0412,2026-09-21,557,False,tv,JP,standard,title_id not in catalog
+EV-000093,M-10235,TT-0588,2026-09-27,2804,True,mobile,GB,standard,title_id not in catalog
+EV-000096,M-10367,TT-0347,2026-08-23,2771,True,tv,CA,standard,title_id not in catalog
+EV-000101,M-10088,TT-0412,2026-09-25,1381,False,tv,GB,standard,title_id not in catalog
+EV-000136,M-10534,TT-0258,2026-08-23,1400,False,tablet,KR,standard,viewed before title release date
+EV-000141,M-10405,TT-0347,2026-09-19,593,False,tv,BR,standard,title_id not in catalog
+EV-000152,M-10067,TT-0035,2026-08-26,84528,False,tv,CA,standard,implausibly long watch time
+EV-000170,M-10539,TT-0347,2026-10-31,1743,True,tv,DE,standard,title_id not in catalog
+EV-000180,M-10116,TT-0060,2026-10-04,305,False,tv,GB,standard,"catalog runtime missing, duration unverifiable"
+EV-000200,M-10385,TT-0179,2026-10-26,46158,False,tablet,GB,standard,implausibly long watch time
+EV-000239,M-10571,TT-0288,2026-08-26,3032,True,mobile,KR,standard,"catalog runtime missing, duration unverifiable"
+EV-000240,M-10111,TT-0060,2026-08-28,3183,True,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-000254,M-10024,TT-0025,2026-10-07,54117,False,tv,BR,standard,implausibly long watch time
+EV-000292,M-10352,TT-0194,2026-08-20,2056,False,web,DE,standard,"catalog runtime missing, duration unverifiable"
+EV-000337,M-10351,TT-0197,2026-09-09,80435,False,mobile,US,standard,implausibly long watch time
+EV-000338,M-10392,TT-0347,2026-09-12,651,False,tv,FR,kids,title_id not in catalog
+EV-000364,M-10507,TT-0588,2026-10-13,148,False,tv,KR,standard,title_id not in catalog
+EV-000410,M-10453,TT-0412,2026-09-10,652,False,tv,US,standard,title_id not in catalog
+EV-000419,M-10415,TT-0588,2026-11-04,1826,False,tv,US,kids,title_id not in catalog
+EV-000451,M-10505,TT-0262,2026-09-05,1869,False,tv,IN,standard,"catalog runtime missing, duration unverifiable"
+EV-000466,M-10205,TT-0101,2026-08-21,,False,web,FR,standard,watch time missing
+EV-000487,M-10104,TT-0412,2026-11-05,2083,True,tv,GB,standard,title_id not in catalog
+EV-000488,M-10109,TT-0412,2026-09-23,1785,True,tv,BR,standard,title_id not in catalog
+EV-000489,M-10454,TT-0239,2026-10-25,3500,True,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-000490,M-10508,TT-0254,2026-08-19,,False,tv,GB,standard,watch time missing
+EV-000500,M-10480,TT-0239,2026-09-29,922,False,mobile,FR,standard,"catalog runtime missing, duration unverifiable"
+EV-000504,M-10591,TT-0347,2026-11-06,,False,mobile,GB,standard,watch time missing
+EV-000518,M-10527,TT-0258,2026-08-20,760,False,tv,US,standard,viewed before title release date
+EV-000528,M-10456,TT-0347,2026-08-23,1644,False,tv,JP,standard,title_id not in catalog
+EV-000550,M-10055,TT-0347,2026-09-16,,True,mobile,US,standard,watch time missing
+EV-000551,M-10224,TT-0115,2026-11-10,,False,tv,US,standard,watch time missing
+EV-000552,M-10126,TT-0412,2026-10-18,2341,True,tablet,US,standard,title_id not in catalog
+EV-000583,M-10024,TT-0005,2026-11-09,50892,False,tablet,,standard,implausibly long watch time
+EV-000584,M-10107,TT-0347,2026-08-29,2316,True,tablet,BR,standard,title_id not in catalog
+EV-000589,M-10166,TT-0076,2026-09-29,,False,mobile,CA,standard,watch time missing
+EV-000596,M-10024,TT-0412,2026-10-09,3062,True,tv,US,standard,title_id not in catalog
+EV-000597,M-10400,TT-0192,2026-11-09,79852,True,tv,US,standard,implausibly long watch time
+EV-000610,M-10459,TT-0412,2026-09-13,3570,True,mobile,JP,standard,title_id not in catalog
+EV-000629,M-10490,TT-0347,2026-09-03,469,False,tablet,FR,standard,title_id not in catalog
+EV-000638,M-10435,TT-0412,2026-10-17,1561,True,web,US,standard,title_id not in catalog
+EV-000647,M-10048,TT-0008,2026-09-26,2226,True,tv,BR,standard,"catalog runtime missing, duration unverifiable"
+EV-000656,M-10319,TT-0347,2026-09-29,2807,True,web,DE,standard,title_id not in catalog
+EV-000663,M-10308,TT-0170,2026-09-26,547,False,tv,FR,standard,"catalog runtime missing, duration unverifiable"
+EV-000676,M-10432,TT-0347,2026-10-17,2335,True,mobile,FR,standard,title_id not in catalog
+EV-000682,M-10339,TT-0160,2026-09-04,43130,True,tv,JP,standard,implausibly long watch time
+EV-000684,M-10014,TT-0004,2026-10-06,78695,False,tv,AU,standard,implausibly long watch time
+EV-000690,M-10259,TT-0133,2026-11-02,,True,tablet,US,standard,watch time missing
+EV-000703,M-10388,TT-0195,2026-09-27,1074,False,web,CA,standard,viewed before title release date
+EV-000726,M-10106,TT-0060,2026-09-08,386,False,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-000743,M-10343,TT-0163,2026-08-27,2008,True,mobile,FR,standard,viewed before title release date
+EV-000748,M-10350,TT-0153,2026-10-28,,False,tv,DE,standard,watch time missing
+EV-000759,M-10245,TT-0119,2026-11-11,2069,True,web,DE,standard,"catalog runtime missing, duration unverifiable"
+EV-000764,M-10499,TT-0239,2026-10-06,1901,True,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-000784,M-10599,TT-0277,2026-10-04,,False,mobile,GB,standard,watch time missing
+EV-000786,M-10519,TT-0412,2026-11-09,91,False,tv,MX,standard,title_id not in catalog
+EV-000822,M-10597,TT-0288,2026-09-07,1156,False,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-000826,M-10343,TT-0412,2026-10-25,2610,True,mobile,BR,standard,title_id not in catalog
+EV-000847,M-10322,TT-0588,2026-08-19,1190,False,tv,BR,kids,title_id not in catalog
+EV-000870,M-10321,TT-0588,2026-11-15,2187,False,tv,IN,standard,title_id not in catalog
+EV-000877,M-10309,TT-0163,2026-09-23,3100,True,mobile,GB,standard,viewed before title release date
+EV-000881,M-10126,TT-0412,2026-08-30,445,True,tv,IN,standard,title_id not in catalog
+EV-000906,M-10191,TT-0347,2026-08-20,2622,True,tv,US,standard,title_id not in catalog
+EV-000907,M-10579,TT-0277,2026-11-02,,False,tv,FR,standard,watch time missing
+EV-000909,M-10307,TT-0152,2026-08-19,,False,tv,MX,standard,watch time missing
+EV-000910,M-10105,TT-0588,2026-11-02,3220,False,mobile,US,standard,title_id not in catalog
+EV-000911,M-10096,TT-0588,2026-08-20,2142,True,tv,BR,standard,title_id not in catalog
+EV-000920,M-10494,TT-0412,2026-10-06,996,False,tv,US,standard,title_id not in catalog
+EV-000921,M-10374,TT-0412,2026-09-20,268,False,mobile,AU,standard,title_id not in catalog
+EV-000934,M-10112,TT-0060,2026-10-26,2132,True,mobile,US,standard,"catalog runtime missing, duration unverifiable"
+EV-000963,M-10158,TT-0412,2026-11-14,905,False,tv,GB,standard,title_id not in catalog
+EV-000968,M-10541,TT-0262,2026-10-29,2607,True,tv,JP,standard,"catalog runtime missing, duration unverifiable"
+EV-000971,M-10018,TT-0008,2026-08-18,2433,True,mobile,BR,kids,"catalog runtime missing, duration unverifiable"
+EV-000978,M-10139,TT-0412,2026-08-30,2454,True,tv,US,standard,title_id not in catalog
+EV-000983,M-10354,TT-0194,2026-11-03,1163,False,tablet,ES,standard,"catalog runtime missing, duration unverifiable"
+EV-000986,M-10230,TT-0588,2026-08-21,1647,True,tablet,US,kids,title_id not in catalog
+EV-000995,M-10288,TT-0412,2026-11-15,3301,True,mobile,US,standard,title_id not in catalog
+EV-001007,M-10151,TT-0347,2026-08-25,1142,False,mobile,US,standard,title_id not in catalog
+EV-001022,M-10080,TT-0412,2026-08-18,1020,False,tablet,FR,standard,title_id not in catalog
+EV-001023,M-10159,TT-0347,2026-11-16,134,False,mobile,MX,standard,title_id not in catalog
+EV-001042,M-10141,TT-0588,2026-09-17,2573,False,mobile,BR,kids,title_id not in catalog
+EV-001053,M-10220,TT-0119,2026-08-24,2225,False,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-001058,M-10418,TT-0412,2026-11-03,3419,False,tv,US,kids,title_id not in catalog
+EV-001069,M-10495,TT-0588,2026-10-19,578,False,tv,US,standard,title_id not in catalog
+EV-001073,M-10486,TT-0347,2026-09-15,150,False,tv,CA,standard,title_id not in catalog
+EV-001077,M-10040,TT-0347,2026-10-09,2626,False,tv,GB,standard,title_id not in catalog
+EV-001079,M-10330,TT-0156,2026-08-18,34240,False,mobile,US,standard,implausibly long watch time
+EV-001086,M-10562,TT-0289,2026-11-12,,True,tablet,US,standard,watch time missing
+EV-001089,M-10009,TT-0008,2026-10-22,2319,True,tablet,US,standard,"catalog runtime missing, duration unverifiable"
+EV-001092,M-10302,TT-0412,2026-11-05,2906,False,mobile,DE,kids,title_id not in catalog
+EV-001111,M-10044,TT-0008,2026-11-14,467,True,tv,IN,standard,"catalog runtime missing, duration unverifiable"
+EV-001118,M-10585,TT-0347,2026-09-18,627,False,tv,US,standard,title_id not in catalog
+EV-001140,M-10066,TT-0588,2026-10-29,123,False,tv,US,standard,title_id not in catalog
+EV-001159,M-10453,TT-0239,2026-10-06,521,False,tv,MX,standard,"catalog runtime missing, duration unverifiable"
+EV-001165,M-10498,TT-0412,2026-10-28,2470,False,web,MX,standard,title_id not in catalog
+EV-001176,M-10476,TT-0227,2026-09-23,61035,False,tv,US,standard,implausibly long watch time
+EV-001188,M-10254,TT-0588,2026-09-10,1205,False,tablet,CA,standard,title_id not in catalog
+EV-001197,M-10586,TT-0288,2026-09-03,3533,True,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-001200,M-10467,TT-0239,2026-08-20,3506,True,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-001203,M-10416,TT-0588,2026-10-09,905,True,mobile,US,kids,title_id not in catalog
+EV-001209,M-10556,TT-0284,2026-09-30,,True,tablet,FR,standard,watch time missing
+EV-001213,M-10069,TT-0037,2026-11-11,,False,tv,ES,standard,watch time missing
+EV-001228,M-10518,TT-0269,2026-10-31,,False,tv,FR,standard,watch time missing
+EV-001236,M-10048,TT-0013,2026-11-16,,False,tv,MX,standard,watch time missing
+EV-001263,M-10491,TT-0239,2026-08-20,649,False,tablet,IN,standard,"catalog runtime missing, duration unverifiable"
+EV-001285,M-10382,TT-0588,2026-10-02,2836,True,tv,KR,standard,title_id not in catalog
+EV-001294,M-10508,TT-0588,2026-10-02,1717,False,tv,ES,standard,title_id not in catalog
+EV-001314,M-10500,TT-0412,2026-08-28,550,False,tv,BR,standard,title_id not in catalog
+EV-001320,M-10044,TT-0002,2026-09-25,,False,tablet,FR,standard,watch time missing
+EV-001329,M-10588,TT-0588,2026-08-27,1802,True,tablet,US,standard,title_id not in catalog
+EV-001336,M-10223,TT-0102,2026-09-26,,False,tv,US,standard,watch time missing
+EV-001337,M-10118,TT-0347,2026-09-26,2784,True,tv,DE,standard,title_id not in catalog
+EV-001359,M-10392,TT-0412,2026-09-29,547,False,,ES,standard,title_id not in catalog
+EV-001360,M-10479,TT-0239,2026-10-10,2009,True,tv,GB,standard,"catalog runtime missing, duration unverifiable"
+EV-001400,M-10257,TT-0412,2026-08-23,225,False,tv,GB,standard,title_id not in catalog
+EV-001406,M-10160,TT-0083,2026-11-04,,False,tv,US,standard,watch time missing
+EV-001434,M-10490,TT-0239,2026-10-22,1400,False,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-001480,M-10542,TT-0262,2026-11-02,1025,False,mobile,IN,standard,"catalog runtime missing, duration unverifiable"
+EV-001491,M-10318,TT-0163,2026-09-13,1368,False,tv,DE,standard,viewed before title release date
+EV-001514,M-10142,TT-0347,2026-09-01,,False,tv,IN,standard,watch time missing
+EV-001522,M-10004,TT-0008,2026-10-20,342,False,tv,FR,standard,"catalog runtime missing, duration unverifiable"
+EV-001537,M-10307,TT-0347,2026-10-18,1517,True,web,BR,standard,title_id not in catalog
+EV-001548,M-10546,TT-0255,2026-08-29,,False,tv,ES,standard,watch time missing
+EV-001553,M-10027,TT-0008,2026-11-11,2361,False,tv,GB,standard,"catalog runtime missing, duration unverifiable"
+EV-001556,M-10058,TT-0347,2026-08-19,89,False,tv,DE,standard,title_id not in catalog
+EV-001561,M-10089,TT-0412,2026-10-24,609,False,tv,US,standard,title_id not in catalog
+EV-001564,M-10133,TT-0060,2026-09-13,1656,True,tablet,DE,standard,"catalog runtime missing, duration unverifiable"
+EV-001577,M-10530,TT-0262,2026-09-30,2114,False,tv,FR,standard,"catalog runtime missing, duration unverifiable"
+EV-001581,M-10063,TT-0347,2026-09-11,2651,True,mobile,ES,standard,title_id not in catalog
+EV-001590,M-10279,TT-0143,2026-09-05,2867,True,mobile,ES,standard,"catalog runtime missing, duration unverifiable"
+EV-001627,M-10383,TT-0181,2026-10-13,46528,False,mobile,AU,standard,implausibly long watch time
+EV-001629,M-10271,TT-0026,2026-08-17,67661,False,tv,,standard,implausibly long watch time
+EV-001648,M-10145,TT-0347,2026-08-20,1132,False,tv,CA,standard,title_id not in catalog
+EV-001707,M-10143,TT-0067,2026-08-23,,False,tv,DE,standard,watch time missing
+EV-001709,M-10180,TT-0588,2026-09-25,1552,True,tablet,AU,standard,title_id not in catalog
+EV-001717,M-10490,TT-0231,2026-10-29,,True,tablet,BR,standard,watch time missing
+EV-001726,M-10299,TT-0026,2026-11-16,,False,tv,US,standard,watch time missing
+EV-001743,M-10499,TT-0588,2026-10-19,2030,True,tv,AU,standard,title_id not in catalog
+EV-001748,M-10595,TT-0288,2026-09-20,3102,False,tv,GB,standard,"catalog runtime missing, duration unverifiable"
+EV-001754,M-10281,TT-0347,2026-08-22,2102,True,web,GB,standard,title_id not in catalog
+EV-001761,M-10340,TT-0159,2026-11-15,,False,tv,CA,standard,watch time missing
+EV-001778,M-10531,TT-0412,2026-09-07,705,True,tv,US,standard,title_id not in catalog
+EV-001798,M-10344,TT-0347,2026-10-17,1458,True,web,MX,standard,title_id not in catalog
+EV-001800,M-10238,TT-0103,2026-11-06,44567,False,mobile,,kids,implausibly long watch time
+EV-001805,M-10392,TT-0076,2026-10-06,,False,tv,CA,standard,watch time missing
+EV-001816,M-10564,TT-0288,2026-11-11,1101,False,tv,KR,standard,"catalog runtime missing, duration unverifiable"
+EV-001822,M-10091,TT-0347,2026-11-13,185,False,web,US,standard,title_id not in catalog
+EV-001829,M-10581,TT-0288,2026-09-13,1171,False,tv,MX,standard,"catalog runtime missing, duration unverifiable"
+EV-001854,M-10136,TT-0060,2026-08-17,1909,True,tv,FR,standard,"catalog runtime missing, duration unverifiable"
+EV-001861,M-10295,TT-0143,2026-10-09,2233,True,tablet,US,standard,"catalog runtime missing, duration unverifiable"
+EV-001865,M-10003,TT-0013,2026-08-24,,False,tv,US,standard,watch time missing
+EV-001884,M-10137,TT-0061,2026-11-06,,False,tv,IN,standard,watch time missing
+EV-001903,M-10515,TT-0262,2026-10-18,225,False,web,DE,standard,"catalog runtime missing, duration unverifiable"
+EV-001929,M-10359,TT-0347,2026-09-01,320,True,mobile,MX,standard,title_id not in catalog
+EV-001940,M-10555,TT-0276,2026-11-10,,False,mobile,US,standard,watch time missing
+EV-001956,M-10056,TT-0029,2026-11-03,77208,False,,GB,standard,implausibly long watch time
+EV-001962,M-10410,TT-0347,2026-10-01,2875,True,tv,GB,kids,title_id not in catalog
+EV-001992,M-10117,TT-0060,2026-11-01,3250,True,tv,BR,standard,"catalog runtime missing, duration unverifiable"
+EV-002019,M-10195,TT-0097,2026-11-06,3097,True,,BR,standard,"catalog runtime missing, duration unverifiable"
+EV-002026,M-10350,TT-0170,2026-09-19,2327,True,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-002039,M-10116,TT-0347,2026-10-29,1116,False,tv,DE,standard,title_id not in catalog
+EV-002046,M-10561,TT-0288,2026-11-04,3239,False,mobile,GB,standard,"catalog runtime missing, duration unverifiable"
+EV-002050,M-10305,TT-0347,2026-10-26,1804,True,tv,IN,standard,title_id not in catalog
+EV-002056,M-10356,TT-0194,2026-09-02,3096,True,mobile,US,standard,"catalog runtime missing, duration unverifiable"
+EV-002069,M-10254,TT-0347,2026-11-04,1736,True,tv,DE,standard,title_id not in catalog
+EV-002095,M-10428,TT-0276,2026-10-21,,False,mobile,CA,standard,watch time missing
+EV-002110,M-10492,TT-0412,2026-11-15,1677,False,web,US,standard,title_id not in catalog
+EV-002164,M-10227,TT-0115,2026-08-19,,False,web,AU,standard,watch time missing
+EV-002170,M-10189,TT-0090,2026-11-03,,False,tv,ES,standard,watch time missing
+EV-002180,M-10276,TT-0347,2026-11-01,452,False,tv,US,standard,title_id not in catalog
+EV-002200,M-10351,TT-0412,2026-11-06,1377,False,tablet,ES,standard,title_id not in catalog
+EV-002223,M-10485,TT-0239,2026-10-25,1922,False,tablet,DE,standard,"catalog runtime missing, duration unverifiable"
+EV-002235,M-10588,TT-0277,2026-08-23,,False,mobile,FR,standard,watch time missing
+EV-002239,M-10308,TT-0166,2026-11-08,,False,tv,US,standard,watch time missing
+EV-002250,M-10012,TT-0008,2026-08-26,1061,False,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-002259,M-10381,TT-0347,2026-10-30,33,False,mobile,,standard,title_id not in catalog
+EV-002279,M-10510,TT-0262,2026-09-16,3511,True,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-002282,M-10082,TT-0588,2026-09-05,1736,True,mobile,GB,standard,title_id not in catalog
+EV-002294,M-10569,TT-0588,2026-08-23,1310,False,tv,GB,standard,title_id not in catalog
+EV-002300,M-10347,TT-0176,2026-09-30,56045,False,tv,US,standard,implausibly long watch time
+EV-002303,M-10020,TT-0003,2026-09-13,85372,False,tv,IN,standard,implausibly long watch time
+EV-002314,M-10142,TT-0588,2026-11-12,1015,False,tv,GB,standard,title_id not in catalog
+EV-002347,M-10367,TT-0195,2026-10-03,2073,True,tv,US,standard,viewed before title release date
+EV-002360,M-10461,TT-0239,2026-10-17,2556,False,tablet,BR,standard,"catalog runtime missing, duration unverifiable"
+EV-002384,M-10512,TT-0347,2026-10-07,3575,True,mobile,US,standard,title_id not in catalog
+EV-002393,M-10146,TT-0060,2026-10-10,202,False,mobile,US,standard,"catalog runtime missing, duration unverifiable"
+EV-002419,M-10598,TT-0288,2026-08-29,612,False,tv,BR,standard,"catalog runtime missing, duration unverifiable"
+EV-002439,M-10390,TT-0177,2026-09-25,37028,False,tv,US,standard,implausibly long watch time
+EV-002440,M-10537,TT-0262,2026-10-12,621,True,tablet,IN,standard,"catalog runtime missing, duration unverifiable"
+EV-002470,M-10344,TT-0163,2026-08-29,977,True,tablet,CA,standard,viewed before title release date
+EV-002471,M-10368,TT-0347,2026-09-22,1605,True,tv,US,standard,title_id not in catalog
+EV-002488,M-10359,TT-0194,2026-10-20,1234,False,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-002514,M-10250,TT-0412,2026-09-26,2580,True,tv,US,standard,title_id not in catalog
+EV-002527,M-10320,TT-0170,2026-10-02,1112,False,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-002537,M-10517,TT-0258,2026-10-10,3468,True,tablet,US,standard,viewed before title release date
+EV-002538,M-10566,TT-0288,2026-08-17,709,True,tv,IN,standard,"catalog runtime missing, duration unverifiable"
+EV-002540,M-10544,TT-0253,2026-09-16,54580,False,tv,US,standard,implausibly long watch time
+EV-002541,M-10111,TT-0412,2026-10-30,2499,True,tablet,GB,standard,title_id not in catalog
+EV-002558,M-10148,TT-0051,2026-10-18,67190,False,tv,GB,standard,implausibly long watch time
+EV-002561,M-10169,TT-0347,2026-11-15,2815,False,tv,MX,standard,title_id not in catalog
+EV-002589,M-10451,TT-0239,2026-09-02,1375,False,tv,CA,standard,"catalog runtime missing, duration unverifiable"
+EV-002630,M-10569,TT-0588,2026-09-13,273,False,,MX,standard,title_id not in catalog
+EV-002662,M-10112,TT-0060,2026-09-29,927,False,tablet,DE,standard,"catalog runtime missing, duration unverifiable"
+EV-002664,M-10560,TT-0288,2026-09-19,191,False,tv,JP,standard,"catalog runtime missing, duration unverifiable"
+EV-002668,M-10368,TT-0177,2026-11-09,,False,tv,CA,standard,watch time missing
+EV-002699,M-10233,TT-0588,2026-09-13,1499,False,tv,FR,standard,title_id not in catalog
+EV-002702,M-10562,TT-0281,2026-09-20,84398,True,tv,BR,standard,implausibly long watch time
+EV-002725,M-10515,TT-0588,2026-10-24,1723,True,mobile,ES,standard,title_id not in catalog
+EV-002737,M-10346,TT-0588,2026-11-15,1527,True,tv,US,standard,title_id not in catalog
+EV-002738,M-10070,TT-0028,2026-09-10,,False,tv,KR,standard,watch time missing
+EV-002749,M-10193,TT-0588,2026-09-12,1196,False,tv,GB,standard,title_id not in catalog
+EV-002755,M-10537,TT-0347,2026-11-14,2017,False,tv,JP,standard,title_id not in catalog
+EV-002757,M-10386,TT-0412,2026-09-01,194,True,tv,BR,standard,title_id not in catalog
+EV-002775,M-10233,TT-0412,2026-11-08,653,False,mobile,US,standard,title_id not in catalog
+EV-002800,M-10209,TT-0176,2026-10-16,35852,False,tv,US,standard,implausibly long watch time
+EV-002808,M-10493,TT-0231,2026-11-02,77266,False,tablet,US,standard,implausibly long watch time
+EV-002810,M-10015,TT-0008,2026-10-18,797,False,tv,FR,standard,"catalog runtime missing, duration unverifiable"
+EV-002819,M-10541,TT-0262,2026-09-04,1652,True,tv,BR,standard,"catalog runtime missing, duration unverifiable"
+EV-002826,M-10462,TT-0412,2026-10-02,1942,True,web,US,standard,title_id not in catalog
+EV-002839,M-10096,TT-0588,2026-09-09,3060,True,mobile,FR,standard,title_id not in catalog
+EV-002844,M-10289,TT-0588,2026-11-07,492,False,tv,ES,standard,title_id not in catalog
+EV-002850,M-10310,TT-0176,2026-09-25,36596,False,tv,US,kids,implausibly long watch time
+EV-002853,M-10220,TT-0102,2026-10-04,,False,tv,US,standard,watch time missing
+EV-002869,M-10463,TT-0588,2026-10-01,1762,True,web,US,standard,title_id not in catalog
+EV-002881,M-10168,TT-0081,2026-10-27,48088,False,tv,IN,standard,implausibly long watch time
+EV-002904,M-10493,TT-0347,2026-08-24,1691,False,tv,FR,standard,title_id not in catalog
+EV-002912,M-10576,TT-0001,2026-10-25,,False,tv,GB,standard,watch time missing
+EV-002933,M-10265,TT-0143,2026-08-30,561,False,mobile,BR,standard,"catalog runtime missing, duration unverifiable"
+EV-002954,M-10578,TT-0286,2026-09-14,,False,mobile,US,standard,watch time missing
+EV-002969,M-10017,TT-0008,2026-11-13,2905,True,tv,KR,standard,"catalog runtime missing, duration unverifiable"
+EV-002971,M-10530,TT-0258,2026-09-27,3420,False,mobile,BR,standard,viewed before title release date
+EV-002978,M-10281,TT-0131,2026-11-14,,False,tv,FR,standard,watch time missing
+EV-002995,M-10197,TT-0588,2026-08-27,2365,True,tv,IN,standard,title_id not in catalog
+EV-003010,M-10456,TT-0412,2026-10-12,2290,True,tv,CA,standard,title_id not in catalog
+EV-003014,M-10538,TT-0258,2026-10-24,157,False,tv,JP,standard,viewed before title release date
+EV-003024,M-10143,TT-0055,2026-10-23,,False,tablet,MX,standard,watch time missing
+EV-003026,M-10319,TT-0172,2026-10-08,35902,False,tv,CA,standard,implausibly long watch time
+EV-003051,M-10088,TT-0588,2026-09-24,101,False,tablet,US,standard,title_id not in catalog
+EV-003061,M-10460,TT-0239,2026-10-16,1975,False,tv,JP,standard,"catalog runtime missing, duration unverifiable"
+EV-003071,M-10123,TT-0060,2026-08-24,473,True,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-003078,M-10122,TT-0060,2026-09-09,182,False,tablet,FR,standard,"catalog runtime missing, duration unverifiable"
+EV-003108,M-10505,TT-0588,2026-09-29,3487,False,web,US,standard,title_id not in catalog
+EV-003122,M-10127,TT-0412,2026-09-24,2911,True,tv,DE,standard,title_id not in catalog
+EV-003128,M-10360,TT-0347,2026-10-03,1848,False,web,BR,kids,title_id not in catalog
+EV-003139,M-10347,TT-0163,2026-09-08,1811,True,tv,CA,standard,viewed before title release date
+EV-003162,M-10565,TT-0347,2026-10-04,1810,False,tv,JP,standard,title_id not in catalog
+EV-003164,M-10041,TT-0003,2026-09-15,,False,tv,MX,standard,watch time missing
+EV-003180,M-10572,TT-0412,2026-10-08,,False,web,US,standard,watch time missing
+EV-003207,M-10359,TT-0190,2026-08-27,,True,tv,US,standard,watch time missing
+EV-003208,M-10149,TT-0060,2026-09-12,3062,True,tablet,US,standard,"catalog runtime missing, duration unverifiable"
+EV-003230,M-10178,TT-0412,2026-08-30,1589,False,tv,US,standard,title_id not in catalog
+EV-003238,M-10244,TT-0588,2026-11-04,2431,True,tv,AU,standard,title_id not in catalog
+EV-003243,M-10205,TT-0588,2026-09-03,1770,True,web,IN,standard,title_id not in catalog
+EV-003261,M-10259,TT-0588,2026-09-24,3582,False,tv,DE,standard,title_id not in catalog
+EV-003262,M-10335,TT-0412,2026-09-17,537,False,tablet,BR,standard,title_id not in catalog
+EV-003267,M-10343,TT-0163,2026-09-17,301,False,,US,standard,viewed before title release date
+EV-003281,M-10019,TT-0011,2026-10-14,,False,tv,DE,standard,watch time missing
+EV-003283,M-10542,TT-0258,2026-10-21,3112,True,mobile,GB,standard,viewed before title release date
+EV-003287,M-10487,TT-0347,2026-10-25,2023,True,tv,CA,standard,title_id not in catalog
+EV-003289,M-10508,TT-0251,2026-09-21,,False,tv,US,standard,watch time missing
+EV-003299,M-10536,TT-0258,2026-09-06,2101,True,mobile,US,standard,viewed before title release date
+EV-003302,M-10577,TT-0277,2026-08-28,,True,tv,US,standard,watch time missing
+EV-003312,M-10150,TT-0412,2026-10-12,1604,True,,BR,standard,title_id not in catalog
+EV-003313,M-10334,TT-0347,2026-09-07,2308,False,tv,US,standard,title_id not in catalog
+EV-003320,M-10385,TT-0195,2026-09-21,1597,True,tv,BR,standard,viewed before title release date
+EV-003322,M-10379,TT-0412,2026-09-28,2857,False,mobile,US,standard,title_id not in catalog
+EV-003328,M-10330,TT-0412,2026-10-07,1914,True,tv,AU,standard,title_id not in catalog
+EV-003345,M-10411,TT-0209,2026-09-25,,False,tv,KR,kids,watch time missing
+EV-003368,M-10558,TT-0288,2026-09-17,1807,True,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-003407,M-10118,TT-0060,2026-09-07,3308,False,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-003422,M-10284,TT-0128,2026-09-18,,True,tv,GB,standard,watch time missing
+EV-003437,M-10091,TT-0588,2026-11-10,722,False,tv,JP,standard,title_id not in catalog
+EV-003443,M-10224,TT-0119,2026-09-02,1303,False,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-003450,M-10380,TT-0347,2026-08-22,1670,True,tv,US,standard,title_id not in catalog
+EV-003456,M-10186,TT-0080,2026-09-15,72478,False,tv,GB,standard,implausibly long watch time
+EV-003471,M-10398,TT-0588,2026-11-12,2581,True,mobile,US,standard,title_id not in catalog
+EV-003495,M-10530,TT-0412,2026-11-03,1360,False,tv,US,standard,title_id not in catalog
+EV-003505,M-10048,TT-0008,2026-09-22,1356,False,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-003531,M-10346,TT-0163,2026-09-18,206,False,web,FR,standard,viewed before title release date
+EV-003534,M-10523,TT-0051,2026-08-17,,False,tv,IN,kids,watch time missing
+EV-003545,M-10123,TT-0060,2026-08-28,1766,True,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-003546,M-10211,TT-0412,2026-11-01,405,False,tablet,US,standard,title_id not in catalog
+EV-003550,M-10537,TT-0258,2026-09-28,2204,True,tv,US,standard,viewed before title release date
+EV-003556,M-10334,TT-0347,2026-10-08,1622,True,mobile,US,standard,title_id not in catalog
+EV-003558,M-10181,TT-0078,2026-09-28,,False,tv,ES,standard,watch time missing
+EV-003589,M-10564,TT-0288,2026-10-30,1491,False,mobile,FR,standard,"catalog runtime missing, duration unverifiable"
+EV-003611,M-10521,TT-0262,2026-08-29,2413,True,tablet,FR,standard,"catalog runtime missing, duration unverifiable"
+EV-003616,M-10343,TT-0163,2026-10-03,2837,True,mobile,US,standard,viewed before title release date
+EV-003624,M-10412,TT-0211,2026-10-07,70857,False,tv,US,standard,implausibly long watch time
+EV-003631,M-10567,TT-0288,2026-08-17,1627,True,mobile,US,standard,"catalog runtime missing, duration unverifiable"
+EV-003638,M-10590,TT-0288,2026-08-17,681,False,tv,GB,standard,"catalog runtime missing, duration unverifiable"
+EV-003658,M-10496,TT-0412,2026-10-23,1957,False,tv,FR,standard,title_id not in catalog
+EV-003712,M-10509,TT-0412,2026-08-25,351,False,tv,CA,standard,title_id not in catalog
+EV-003713,M-10473,TT-0239,2026-10-06,1220,False,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-003714,M-10053,TT-0412,2026-11-02,1563,True,tv,GB,standard,title_id not in catalog
+EV-003723,M-10315,TT-0170,2026-09-04,2058,True,web,BR,standard,"catalog runtime missing, duration unverifiable"
+EV-003726,M-10131,TT-0061,2026-09-25,39662,False,tv,AU,standard,implausibly long watch time
+EV-003746,M-10567,TT-0290,2026-09-18,48254,True,tv,US,standard,implausibly long watch time
+EV-003759,M-10358,TT-0176,2026-10-12,,False,mobile,US,standard,watch time missing
+EV-003777,M-10565,TT-0412,2026-09-22,2293,False,tv,US,standard,title_id not in catalog
+EV-003796,M-10216,TT-0119,2026-10-15,862,False,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-003815,M-10540,TT-0412,2026-10-12,1185,False,tv,MX,standard,title_id not in catalog
+EV-003820,M-10049,TT-0412,2026-09-20,1708,True,tv,CA,standard,title_id not in catalog
+EV-003830,M-10589,TT-0412,2026-08-28,2734,False,tv,JP,standard,title_id not in catalog
+EV-003836,M-10114,TT-0588,2026-10-03,1932,True,tablet,GB,standard,title_id not in catalog
+EV-003839,M-10131,TT-0001,2026-10-31,,False,tv,DE,standard,watch time missing
+EV-003842,M-10146,TT-0060,2026-10-30,55,False,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-003849,M-10081,TT-0588,2026-09-16,2542,True,mobile,FR,standard,title_id not in catalog
+EV-003868,M-10004,TT-0007,2026-10-24,62132,False,mobile,JP,standard,implausibly long watch time
+EV-003875,M-10136,TT-0060,2026-11-12,3406,True,mobile,CA,standard,"catalog runtime missing, duration unverifiable"
+EV-003879,M-10048,TT-0347,2026-09-03,1902,True,mobile,CA,standard,title_id not in catalog
+EV-003880,M-10308,TT-0163,2026-08-22,3392,True,tv,FR,standard,viewed before title release date
+EV-003895,M-10195,TT-0347,2026-10-20,3503,False,tv,US,standard,title_id not in catalog
+EV-003896,M-10363,TT-0194,2026-08-22,353,False,mobile,DE,standard,"catalog runtime missing, duration unverifiable"
+EV-003901,M-10242,TT-0119,2026-09-03,2319,True,tv,BR,standard,"catalog runtime missing, duration unverifiable"
+EV-003907,M-10403,TT-0213,2026-10-30,68007,False,tv,DE,standard,implausibly long watch time
+EV-003909,M-10547,TT-0258,2026-09-30,3147,True,tv,US,standard,viewed before title release date
+EV-003946,M-10433,TT-0588,2026-11-10,1148,False,mobile,US,kids,title_id not in catalog
+EV-003976,M-10247,TT-0051,2026-10-07,31300,False,web,BR,standard,implausibly long watch time
+EV-003998,M-10504,TT-0262,2026-11-14,3338,True,tablet,BR,standard,"catalog runtime missing, duration unverifiable"
+EV-004014,M-10538,TT-0347,2026-09-01,1610,True,tv,US,standard,title_id not in catalog
+EV-004015,M-10003,TT-0008,2026-10-06,1564,True,web,MX,standard,"catalog runtime missing, duration unverifiable"
+EV-004042,M-10433,TT-0347,2026-10-20,1348,False,tv,GB,standard,title_id not in catalog
+EV-004053,M-10463,TT-0347,2026-10-20,3597,True,web,GB,standard,title_id not in catalog
+EV-004054,M-10048,TT-0412,2026-11-03,3071,False,tv,CA,standard,title_id not in catalog
+EV-004061,M-10201,TT-0412,2026-10-18,2338,False,tablet,AU,standard,title_id not in catalog
+EV-004094,M-10124,TT-0060,2026-11-01,445,False,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-004105,M-10594,TT-0588,2026-09-09,1356,False,tablet,US,standard,title_id not in catalog
+EV-004145,M-10581,TT-0288,2026-10-21,866,False,tv,GB,standard,"catalog runtime missing, duration unverifiable"
+EV-004148,M-10191,TT-0588,2026-10-25,2344,False,mobile,GB,standard,title_id not in catalog
+EV-004160,M-10042,TT-0006,2026-11-12,80537,False,mobile,DE,standard,implausibly long watch time
+EV-004166,M-10463,TT-0276,2026-11-13,,False,tv,BR,standard,watch time missing
+EV-004183,M-10571,TT-0288,2026-09-30,1840,True,,BR,standard,"catalog runtime missing, duration unverifiable"
+EV-004189,M-10471,TT-0051,2026-09-04,,False,,MX,standard,watch time missing
+EV-004197,M-10301,TT-0347,2026-09-01,2043,True,tv,US,standard,title_id not in catalog
+EV-004203,M-10340,TT-0412,2026-10-03,1583,True,web,US,standard,title_id not in catalog
+EV-004206,M-10139,TT-0588,2026-09-10,2213,True,tv,IN,standard,title_id not in catalog
+EV-004228,M-10136,TT-0053,2026-09-30,,True,mobile,CA,standard,watch time missing
+EV-004233,M-10132,TT-0001,2026-09-13,75124,False,tv,MX,standard,implausibly long watch time
+EV-004234,M-10017,TT-0008,2026-09-25,804,True,tv,IN,standard,"catalog runtime missing, duration unverifiable"
+EV-004242,M-10432,TT-0412,2026-10-12,435,False,tv,ES,kids,title_id not in catalog
+EV-004250,M-10002,TT-0412,2026-08-30,153,False,tv,GB,standard,title_id not in catalog
+EV-004259,M-10295,TT-0347,2026-09-09,1696,True,tv,BR,standard,title_id not in catalog
+EV-004267,M-10211,TT-0588,2026-08-22,3506,False,tv,CA,standard,title_id not in catalog
+EV-004272,M-10352,TT-0195,2026-10-01,2661,True,mobile,FR,standard,viewed before title release date
+EV-004290,M-10034,TT-0588,2026-09-03,2755,True,web,US,standard,title_id not in catalog
+EV-004292,M-10565,TT-0281,2026-10-28,,False,tv,JP,standard,watch time missing
+EV-004296,M-10042,TT-0008,2026-10-05,357,False,tv,BR,standard,"catalog runtime missing, duration unverifiable"
+EV-004297,M-10595,TT-0288,2026-08-30,3293,False,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-004301,M-10246,TT-0347,2026-11-11,270,False,tablet,JP,standard,title_id not in catalog
+EV-004326,M-10048,TT-0008,2026-08-21,170,False,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-004329,M-10572,TT-0288,2026-08-18,1638,True,tablet,GB,standard,"catalog runtime missing, duration unverifiable"
+EV-004332,M-10084,TT-0412,2026-08-28,3108,False,tablet,BR,standard,title_id not in catalog
+EV-004333,M-10353,TT-0197,2026-10-25,,False,mobile,US,standard,watch time missing
+EV-004334,M-10049,TT-0412,2026-08-31,3353,True,tv,BR,standard,title_id not in catalog
+EV-004340,M-10316,TT-0588,2026-10-04,1491,False,tv,US,standard,title_id not in catalog
+EV-004353,M-10315,TT-0588,2026-09-07,3340,True,tv,US,standard,title_id not in catalog
+EV-004363,M-10007,TT-0008,2026-10-19,1867,True,tv,IN,standard,"catalog runtime missing, duration unverifiable"
+EV-004367,M-10553,TT-0412,2026-09-07,,False,tv,US,standard,watch time missing
+EV-004372,M-10058,TT-0049,2026-10-24,,False,tv,US,standard,watch time missing
+EV-004378,M-10087,TT-0044,2026-09-12,44283,False,tv,AU,standard,implausibly long watch time
+EV-004393,M-10218,TT-0111,2026-11-16,,False,web,MX,standard,watch time missing
+EV-004405,M-10397,TT-0195,2026-09-15,1839,True,tv,CA,standard,viewed before title release date
+EV-004430,M-10424,TT-0347,2026-09-18,787,False,tablet,FR,standard,title_id not in catalog
+EV-004436,M-10229,TT-0103,2026-09-21,,False,tv,FR,standard,watch time missing
+EV-004466,M-10313,TT-0163,2026-09-21,519,False,tv,IN,standard,viewed before title release date
+EV-004474,M-10492,TT-0588,2026-09-22,2299,False,web,US,standard,title_id not in catalog
+EV-004475,M-10260,TT-0140,2026-09-16,84844,False,mobile,US,standard,implausibly long watch time
+EV-004497,M-10234,TT-0119,2026-08-22,3354,True,mobile,US,standard,"catalog runtime missing, duration unverifiable"
+EV-004499,M-10353,TT-0194,2026-08-18,996,False,tablet,FR,standard,"catalog runtime missing, duration unverifiable"
+EV-004504,M-10090,TT-0588,2026-09-22,2013,True,tv,US,standard,title_id not in catalog
+EV-004520,M-10507,TT-0412,2026-10-20,2997,True,tv,US,standard,title_id not in catalog
+EV-004529,M-10454,TT-0412,2026-09-19,1614,True,tv,IN,standard,title_id not in catalog
+EV-004531,M-10147,TT-0001,2026-10-10,56482,False,mobile,BR,standard,implausibly long watch time
+EV-004541,M-10472,TT-0238,2026-10-26,,False,,GB,standard,watch time missing
+EV-004548,M-10547,TT-0262,2026-11-05,3504,False,web,US,standard,"catalog runtime missing, duration unverifiable"
+EV-004577,M-10046,TT-0008,2026-09-07,,False,tv,IN,standard,watch time missing
+EV-004591,M-10506,TT-0262,2026-09-08,2614,False,mobile,IN,standard,"catalog runtime missing, duration unverifiable"
+EV-004612,M-10073,TT-0028,2026-11-13,,False,tv,CA,standard,watch time missing
+EV-004614,M-10035,TT-0004,2026-09-29,,False,tv,FR,standard,watch time missing
+EV-004620,M-10537,TT-0588,2026-11-16,3175,True,mobile,JP,standard,title_id not in catalog
+EV-004642,M-10341,TT-0347,2026-10-02,3341,True,tv,KR,standard,title_id not in catalog
+EV-004654,M-10126,TT-0412,2026-09-13,2137,True,mobile,CA,standard,title_id not in catalog
+EV-004661,M-10102,TT-0412,2026-08-29,1714,False,tablet,GB,standard,title_id not in catalog
+EV-004689,M-10144,TT-0060,2026-08-29,429,False,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-004695,M-10226,TT-0103,2026-09-07,,False,mobile,US,standard,watch time missing
+EV-004709,M-10592,TT-0276,2026-11-09,,False,mobile,GB,standard,watch time missing
+EV-004710,M-10557,TT-0076,2026-11-04,,False,tv,MX,standard,watch time missing
+EV-004713,M-10254,TT-0176,2026-09-16,,False,mobile,IN,standard,watch time missing
+EV-004721,M-10029,TT-0004,2026-11-12,,True,tablet,ES,kids,watch time missing
+EV-004725,M-10136,TT-0056,2026-11-09,76932,False,tv,US,standard,implausibly long watch time
+EV-004741,M-10545,TT-0347,2026-08-19,2886,True,tv,US,standard,title_id not in catalog
+EV-004745,M-10390,TT-0195,2026-09-21,589,True,tv,BR,standard,viewed before title release date
+EV-004755,M-10047,TT-0008,2026-08-22,1190,True,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-004765,M-10478,TT-0243,2026-09-15,43166,False,tv,JP,standard,implausibly long watch time
+EV-004790,M-10227,TT-0076,2026-11-04,62274,True,tv,MX,standard,implausibly long watch time
+EV-004795,M-10570,TT-0347,2026-08-25,37,False,tv,IN,standard,title_id not in catalog
+EV-004796,M-10231,TT-0119,2026-11-06,2870,True,tablet,US,standard,"catalog runtime missing, duration unverifiable"
+EV-004798,M-10324,TT-0588,2026-10-25,80,False,tablet,,standard,title_id not in catalog
+EV-004834,M-10125,TT-0052,2026-10-06,84593,True,tv,US,standard,implausibly long watch time
+EV-004837,M-10144,TT-0059,2026-09-02,80845,False,tv,US,standard,implausibly long watch time
+EV-004855,M-10361,TT-0190,2026-09-24,,False,tv,CA,standard,watch time missing
+EV-004859,M-10527,TT-0258,2026-10-17,3458,True,tv,KR,standard,viewed before title release date
+EV-004884,M-10519,TT-0262,2026-08-24,1678,True,tv,US,standard,"catalog runtime missing, duration unverifiable"
+EV-004896,M-10311,TT-0170,2026-09-17,2701,True,tablet,IN,standard,"catalog runtime missing, duration unverifiable"
+EV-004898,M-10550,TT-0588,2026-10-10,1459,False,tv,DE,standard,title_id not in catalog
+EV-004907,M-10245,TT-0588,2026-11-05,984,False,tv,DE,standard,title_id not in catalog
+EV-004910,M-10399,TT-0180,2026-09-11,47858,False,tv,FR,standard,implausibly long watch time
+EV-004930,M-10293,TT-0412,2026-09-20,1962,True,tv,IN,standard,title_id not in catalog
+EV-004935,M-10600,TT-0347,2026-11-15,1098,False,tv,GB,standard,title_id not in catalog
+EV-004939,M-10315,TT-0155,2026-10-25,,False,tv,FR,standard,watch time missing
+EV-004954,M-10527,TT-0347,2026-08-28,68,False,tv,CA,standard,title_id not in catalog
+EV-004979,M-10099,TT-0412,2026-11-16,184,False,mobile,JP,standard,title_id not in catalog
+EV-004982,M-10087,TT-0588,2026-10-25,928,False,tv,MX,standard,title_id not in catalog
+EV-004989,M-10533,TT-0262,2026-09-03,1806,True,tv,US,standard,"catalog runtime missing, duration unverifiable"
