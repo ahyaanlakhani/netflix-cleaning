@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Top Picks Recommendation Response Contract",
+  "description": "Response contract for GET /recommendations/{user_id}, owned by Platform Infrastructure. The Top Picks row on the member home page validates every 200 body against the root schema and every 404 body against #/$defs/ErrorResponse. The client drops any response that does not validate. This document defines shape only.",
+  "$comment": "Owner: Aisha Bello, Backend Engineer, Platform Infrastructure. Contract version 1.0, November 2026. Response fields: user_id, recommendations, title_id, title_name, primary_genre, score, latency_ms. Pydantic response and error models must use these field names, id patterns and the Genre enum exactly as written here.",
+  "type": "object",
+  "required": [
+    "user_id",
+    "recommendations"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "pattern": "^M-\\d{5}$",
+      "description": "Member the picks were built for. Same value as the {user_id} path parameter. Corresponds to member_id in netflix_viewing_events_2026-08-17_to_2026-11-16.csv (M-10001 to M-10600).",
+      "examples": [
+        "M-10042"
+      ]
+    },
+    "recommendations": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {
+        "$ref": "#/$defs/RecommendationItem"
+      },
+      "description": "Exactly 10 picks for the member, ordered by score from highest to lowest (index 0 is rank 1). title_id must be unique across all 10 items, so no title appears twice in one response. JSON Schema uniqueItems compares whole objects and cannot key on a single field. The service and its tests must enforce title_id uniqueness explicitly, and the client treats a duplicate title_id as a contract violation."
+    },
+    "latency_ms": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "description": "Optional. Server-side time in milliseconds to build this response, measured from request receipt to body serialization. Omit the field or send null when the value is not measured."
+    }
+  },
+  "$defs": {
+    "RecommendationItem": {
+      "type": "object",
+      "description": "One recommended title in the Top Picks row.",
+      "required": [
+        "title_id",
+        "title_name",
+        "primary_genre",
+        "score"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "title_id": {
+          "type": "string",
+          "pattern": "^TT-\\d{4}$",
+          "description": "Catalog title identifier. Must be a title_id present in netflix_title_catalog_2026-11.csv (TT-0001 to TT-0300)."
+        },
+        "title_name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Title name exactly as written in the title_name column of netflix_title_catalog_2026-11.csv for this title_id."
+        },
+        "primary_genre": {
+          "$ref": "#/$defs/Genre",
+          "description": "Primary genre of the title, from the primary_genre column of netflix_title_catalog_2026-11.csv."
+        },
+        "score": {
+          "type": "number",
+          "description": "Similarity score used to rank the item. A higher score ranks first. Across the recommendations array, scores are non-increasing from index 0 to index 9."
+        }
+      }
+    },
+    "Genre": {
+      "type": "string",
+      "description": "The 12 catalog genres used for primary_genre and secondary_genre in netflix_title_catalog_2026-11.csv. Values are case-sensitive and hyphenated as listed.",
+      "enum": [
+        "Drama",
+        "Comedy",
+        "Thriller",
+        "Crime",
+        "Documentary",
+        "Sci-Fi",
+        "Fantasy",
+        "Romance",
+        "Horror",
+        "Action",
+        "Animation",
+        "Reality"
+      ]
+    },
+    "ErrorResponse": {
+      "type": "object",
+      "description": "Body returned with HTTP 404 when no picks can be served for the requested user_id, for example when the member is unknown. The client shows no Top Picks row for this response.",
+      "required": [
+        "detail",
+        "user_id"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "detail": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Human-readable reason the request could not be served."
+        },
+        "user_id": {
+          "type": "string",
+          "description": "The user_id exactly as requested in the path. No pattern is applied, so a malformed id can be echoed back unchanged."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "user_id": "M-10001",
+  "recommendations": [
+    {
+      "title_id": "TT-0001",
+      "title_name": "The Salt Ledger",
+      "primary_genre": "Drama",
+      "score": 0.8003739
+    },
+    {
+      "title_id": "TT-0004",
+      "title_name": "Ashes of Meridian",
+      "primary_genre": "Drama",
+      "score": 0.74253094
+    },
+    {
+      "title_id": "TT-0276",
+      "title_name": "Gravity Well Garage",
+      "primary_genre": "Sci-Fi",
+      "score": 0.69774234
+    },
+    {
+      "title_id": "TT-0026",
+      "title_name": "Parking Lot Philosophers",
+      "primary_genre": "Comedy",
+      "score": 0.6898813
+    },
+    {
+      "title_id": "TT-0005",
+      "title_name": "The Long Quarry",
+      "primary_genre": "Drama",
+      "score": 0.6889831
+    },
+    {
+      "title_id": "TT-0076",
+      "title_name": "Cold Brass Street",
+      "primary_genre": "Crime",
+      "score": 0.6882463
+    },
+    {
+      "title_id": "TT-0002",
+      "title_name": "The Glass Orchard",
+      "primary_genre": "Drama",
+      "score": 0.67149234
+    },
+    {
+      "title_id": "TT-0014",
+      "title_name": "Tangled Current",
+      "primary_genre": "Drama",
+      "score": 0.64405704
+    },
+    {
+      "title_id": "TT-0011",
+      "title_name": "Sunday at Hollow Creek",
+      "primary_genre": "Drama",
+      "score": 0.6429597
+    },
+    {
+      "title_id": "TT-0012",
+      "title_name": "The Weight of Blue",
+      "primary_genre": "Drama",
+      "score": 0.64098567
+    }
+  ],
+  "latency_ms": 19.1
+}

@@ -1,0 +1,66 @@
+{
+  "user_id": "M-10410",
+  "recommendations": [
+    {
+      "title_id": "TT-0214",
+      "title_name": "The Wandering Knight Pages",
+      "primary_genre": "Animation",
+      "score": 0.6292159
+    },
+    {
+      "title_id": "TT-0208",
+      "title_name": "Sunspot Skate Academy",
+      "primary_genre": "Animation",
+      "score": 0.6222347
+    },
+    {
+      "title_id": "TT-0206",
+      "title_name": "Bolt Creek Heroes",
+      "primary_genre": "Animation",
+      "score": 0.6004162
+    },
+    {
+      "title_id": "TT-0176",
+      "title_name": "Sky Marshal Nine",
+      "primary_genre": "Action",
+      "score": 0.5782581
+    },
+    {
+      "title_id": "TT-0211",
+      "title_name": "Lunch Money Heist",
+      "primary_genre": "Animation",
+      "score": 0.5775242
+    },
+    {
+      "title_id": "TT-0076",
+      "title_name": "Cold Brass Street",
+      "primary_genre": "Crime",
+      "score": 0.5658615
+    },
+    {
+      "title_id": "TT-0276",
+      "title_name": "Gravity Well Garage",
+      "primary_genre": "Sci-Fi",
+      "score": 0.5547819
+    },
+    {
+      "title_id": "TT-0051",
+      "title_name": "Nine Minutes Past",
+      "primary_genre": "Thriller",
+      "score": 0.5519645
+    },
+    {
+      "title_id": "TT-0220",
+      "title_name": "Dinner Under Pressure",
+      "primary_genre": "Reality",
+      "score": 0.54647887
+    },
+    {
+      "title_id": "TT-0026",
+      "title_name": "Parking Lot Philosophers",
+      "primary_genre": "Comedy",
+      "score": 0.5464122
+    }
+  ],
+  "latency_ms": 245.08
+}

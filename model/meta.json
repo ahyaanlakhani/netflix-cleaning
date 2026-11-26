@@ -5,10 +5,10 @@
  "k": 10,
  "cutoff": "2026-11-10",
  "n_scored_members": 266,
- "hit10_model": 0.5338345864661654,
- "hit10_popular": 0.21428571428571427,
- "val_hit10": 0.525096525096525,
- "val_hit10_popular": 0.20077220077220076,
+ "hit10_model": 0.47368421052631576,
+ "hit10_popular": 0.15413533834586465,
+ "val_hit10": 0.444015444015444,
+ "val_hit10_popular": 0.15444015444015444,
  "zero_play_titles": [
   "TT-0008",
   "TT-0060",
@@ -24,39 +24,39 @@
   "TT-0288",
   "TT-0300"
  ],
- "tt0300_vector_norm": 1.0,
+ "tt0300_vector_norm": 0.9999999403953552,
  "tt0300_in_n_members_top10": 0,
  "per_round": [
   {
    "round": 1,
-   "train_loss": 4.844199077740381,
-   "holdout_hit10_model": 0.5676691729323309,
-   "holdout_hit10_popular": 0.21428571428571427
+   "train_loss": 4.874467474053476,
+   "holdout_hit10_model": 0.462406015037594,
+   "holdout_hit10_popular": 0.15413533834586465
   },
   {
    "round": 2,
-   "train_loss": 3.6789227481332576,
-   "holdout_hit10_model": 0.5150375939849624,
-   "holdout_hit10_popular": 0.21428571428571427
+   "train_loss": 3.693762573969171,
+   "holdout_hit10_model": 0.45112781954887216,
+   "holdout_hit10_popular": 0.15413533834586465
   },
   {
    "round": 3,
-   "train_loss": 3.3992385951396233,
-   "holdout_hit10_model": 0.5338345864661654,
-   "holdout_hit10_popular": 0.21428571428571427
+   "train_loss": 3.417363942078949,
+   "holdout_hit10_model": 0.45864661654135336,
+   "holdout_hit10_popular": 0.15413533834586465
   },
   {
    "round": 4,
-   "train_loss": 3.288785502228576,
-   "holdout_hit10_model": 0.5300751879699248,
-   "holdout_hit10_popular": 0.21428571428571427
+   "train_loss": 3.2833463299172894,
+   "holdout_hit10_model": 0.44360902255639095,
+   "holdout_hit10_popular": 0.15413533834586465
   },
   {
    "round": 5,
-   "train_loss": 3.202343136637248,
-   "holdout_hit10_model": 0.5338345864661654,
-   "holdout_hit10_popular": 0.21428571428571427
+   "train_loss": 3.1954912490063756,
+   "holdout_hit10_model": 0.47368421052631576,
+   "holdout_hit10_popular": 0.15413533834586465
   }
  ],
- "wandb_run": "https://forge.coreweave.com/wandb/ahyaanlakhani/netflix-next-title/runs/dtoxiivl"
+ "wandb_run": "https://forge.coreweave.com/wandb/ahyaanlakhani/netflix-next-title/runs/rx93q5z1"
 }

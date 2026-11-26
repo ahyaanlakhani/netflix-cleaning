@@ -62,18 +62,23 @@ def vectors(ev):
 def hit(ms,S,tg,tops=None):
     mi={m:i for i,m in enumerate(ms)}
     return float(np.mean([t in np.argsort(-S[mi[m]])[:K] for m,t in tg.items() if m in mi]))
+def unseen(ev,ms,S):                               # titles a member played in ev can never be recommended
+    mi={m:i for i,m in enumerate(ms)};S=S.astype(float).copy()
+    for r in ev:
+        if r['member_id'] in mi:S[mi[r['member_id']],ix[r['title_id']]]=-np.inf
+    return S
 def popular(ev,n):
     p=np.zeros(N)
     for r in ev:p[ix[r['title_id']]]+=1
     return np.tile(p,(n,1))
 run=wandb.init(project="netflix-next-title",name="two-tower-64d-5rounds",config=dict(dim=DIM,rounds=ROUNDS,k=K,cutoff=CUTOFF,val_start=VAL_START))
 fit=[r for r in tr if r['event_datetime']<VAL_START];val=targets([r for r in tr if r['event_datetime']>=VAL_START])
-train(fit);ms,U,V=vectors(fit);vh,vp=hit(ms,U@V.T,val),hit(ms,popular(fit,len(ms)),val);print('val model',round(vh,3),'popular',round(vp,3))
+train(fit);ms,U,V=vectors(fit);vh,vp=hit(ms,unseen(fit,ms,U@V.T),val),hit(ms,unseen(fit,ms,popular(fit,len(ms))),val);print('val model',round(vh,3),'popular',round(vp,3))
 tg=targets(ho);rounds=[]
 def log(r,loss):
-    ms,U,V=vectors(tr);row=dict(round=r,train_loss=loss,holdout_hit10_model=hit(ms,U@V.T,tg),holdout_hit10_popular=hit(ms,popular(tr,len(ms)),tg))
+    ms,U,V=vectors(tr);row=dict(round=r,train_loss=loss,holdout_hit10_model=hit(ms,unseen(tr,ms,U@V.T),tg),holdout_hit10_popular=hit(ms,unseen(tr,ms,popular(tr,len(ms))),tg))
     rounds.append(row);wandb.log(row);print(row)
-train(tr,log);ms,U,V=vectors(tr);S=U@V.T;mh,ph=hit(ms,S,tg),hit(ms,popular(tr,len(ms)),tg)
+train(tr,log);ms,U,V=vectors(tr);S=unseen(tr,ms,U@V.T);mh,ph=hit(ms,S,tg),hit(ms,unseen(tr,ms,popular(tr,len(ms))),tg)
 plays=C.Counter(r['title_id'] for r in tr);zero=[t for t in tid if plays[t]==0]
 n=len(tg);top={m:[tid[j] for j in np.argsort(-S[i])[:K]] for i,m in enumerate(ms)}
 in_picks=sum(t in p for p in top.values() for t in ['TT-0300'])
@@ -88,12 +93,12 @@ url=run.url;json.dump(dict(model='PyTorch two-tower',dim=DIM,rounds=ROUNDS,k=K,c
 run.summary.update(dict(hit10_model=mh,hit10_popular=ph));run.finish()
 open('REPORT.md','w').write(f"""# Hit Rate@10, hidden final week
 Cutoff date: **{CUTOFF}** (training = events before it; hidden week = 10-16 Nov 2026). Scored members: **{n}**.
-A hit = the member's newest hidden title is in their top {K} picks.
+A hit = the member's newest hidden title is in their top {K} picks. Picks (model and popular) exclude every title the member played in training, so rewatch targets cannot hit.
 
 | | Hit Rate@10 |
 |---|---|
 | Two-tower model (PyTorch, {DIM}-d towers, {ROUNDS} rounds) | **{mh:.1%}** ({round(mh*n)}/{n}) |
-| Popular top 10 (same list for everyone) | {ph:.1%} ({round(ph*n)}/{n}) |
+| Popular top 10 (most-played titles the member has not played) | {ph:.1%} ({round(ph*n)}/{n}) |
 
 Reported round: {ROUNDS} (final). Per round on the hidden week: """+", ".join(f"r{x['round']} {x['holdout_hit10_model']:.1%}" for x in rounds)+f"""
 
